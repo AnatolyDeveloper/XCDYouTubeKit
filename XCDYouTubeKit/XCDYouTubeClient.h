@@ -25,8 +25,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface XCDYouTubeClient : NSObject
 
-/**
- *  ------------------
++(NSString *)innertubeApiKey;
++(void)setInnertubeApiKey:(NSString *)key;
+
+ /*  ------------------
  *  @name Initializing
  *  ------------------
  */
